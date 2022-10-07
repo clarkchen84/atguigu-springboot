@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="pet" class="sizhe.chen.bean.Pet">
+        <property name="name" value="小白"/>
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+    <bean id="user" class="sizhe.chen.bean.User">
+        <property name="name" value="张三"/>
+        <property name="age" value="18"/>
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+    <!-- more bean definitions go here -->
+
+</beans>
